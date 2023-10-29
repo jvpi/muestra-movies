@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='normalize.css' />
+    <link rel='stylesheet' href='style.css' />
+   
+    <link rel='stylesheet' href='card.css' />
+    <link rel='stylesheet' href='eslider.css' /> 
+    <link rel='stylesheet' href='bodybg.css' />
+    <link rel='stylesheet' href='responsive.css' />
+    <link rel='stylesheet' href='modal.css' />
+    <link rel='stylesheet' href='iconos/estrellas/style.css' />
+    <link rel='stylesheet' href='iconos/play/style.css' />
+    <link rel='stylesheet' href='iconos/cross/style.css' />
+    <script  type="module" defer src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container-movies">
+          <nav class="header-nav">
+            <h1 class="header-tittle">Kamuai</h1>
+            <div>
+              <input type="text" class="header-input-search" placeholder="buscar">
+            </div>
+          </nav>
+          <div class="flex-section">
+            <div class="section">
+              <div class="content">
+                <h1 class="tittle-movie-principal">Mr <span> Robot</span></h1>
+                <h3 class="h3-season">season 1</h3>
+                <div class="content-iconos-estrellas">
+                  <span class="icon-star-full bg-yellow"></span>
+                  <span class="icon-star-full bg-yellow"></span>
+                  <span class="icon-star-full bg-yellow"></span>
+                  <span class="icon-star-full bg-yellow"></span>
+                  <span class="icon-star-half bg-yellow"></span>
+                </div>
+                <div>
+                  <span class="subtitulos">Accion / </span><span class="subtitulos">Drama / </span><span class="subtitulos">Suspenso</span>
+                </div>
+                <div>
+                  <button type="button" id="button-play"><span class="icon-play3 icono-play"></span></button>
+                  
+                </div>
+                <p class="content-descripcion-movie">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, amet corrupti. Architecto maiores necessitatibus soluta enim officia ab, ?</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-slider">
+            <div class="content-slider">
+              <div class="card">
+                <img src="images/bojack.jpg" alt="" class="img-bojack">
+                <div class="descripcion-movies">
+                  <h1 class="card-tittle-movies">Bojack horseman</h1>
+                  <p class="card-descripcion-movies">Comedia,drama</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/blinders.webp" alt="" class="img-bojack">
+                <div class="descripcion-movies">
+                  <h1 class="card-tittle-movies">Peaky blinders</h1>
+                  <p class="card-descripcion-movies">Comedia,drama</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/bad.jpg" alt="" class="img-bojack">
+                <div class="descripcion-movies">
+                  <h1 class="card-tittle-movies">Breaking bad</h1>
+                  <p class="card-descripcion-movies">Comedia,drama</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/la casa de papel.jpg" alt="" class="img-bojack">
+                <div class="descripcion-movies">
+                  <h1 class="card-tittle-movies">La casa de papel</h1>
+                  <p class="card-descripcion-movies">Comedia,drama</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/chernobil.jpg" alt="" class="img-bojack">
+                <div class="descripcion-movies">
+                  <h1 class="card-tittle-movies">Chernobil</h1>
+                  <p class="card-descripcion-movies">Comedia,drama</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/rick and morty.jpg" alt="" class="img-bojack">
+                <div class="descripcion-movies">
+                  <h1 class="card-tittle-movies">Rick and morty</h1>
+                  <p class="card-descripcion-movies">Comedia,drama</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/mrrobot.jpg" alt="" class="img-bojack">
+                <div class="descripcion-movies">
+                  <h1 class="card-tittle-movies">Mr robot</h1>
+                  <p class="card-descripcion-movies">Comedia,drama</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/blackmirror.jpg" alt="" class="img-bojack">
+                <div class="descripcion-movies">
+                  <h1 class="card-tittle-movies">Black mirror</h1>
+                  <p class="card-descripcion-movies">Comedia,drama</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="images/mr-robots.webp" alt="" srcset="" class="img-header">
+        </div>
+        
+      </header>
+      <div id="modal" class="modal">
+        <div class="cerrar-modal"><span id="icon-cross" class="icon-cross"></span></div>
+        <div class="content-movie">
+         <video src="videos/muestra.mp4" controls class="modal-video"></video>
+        </div>
+       
+      </div>
+</body>
+</html>
