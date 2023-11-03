@@ -17,15 +17,13 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+   align-items: center;
    
 }
 .modal-video{
     width: 50%;
-    height: 65%;
-   /* position: absolute;
-    top: 40%;
-    left:  50%; 
-    transform: translateX(-50%) translateY(-50%);*/
+   
+    object-fit: cover;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
